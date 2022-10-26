@@ -5,11 +5,22 @@
 
         const init = () => {
             startSlideShow();
-
+            handleFullScreen();
+            
             const imageContainer = document.querySelector('.brocula-hi-container');
             imageContainer.addEventListener('click', () => {
                 handleImageClick();
             })
+        };
+
+        const handleFullScreen = () => {
+            const logo = document.querySelector('.brocula-logo-container');
+            logo.addEventListener('click', (e) => {
+                if (!document.fullscreenElement) {
+                    document.documentElement.requestFullscreen();
+                }
+            })
+            
         };
 
         const startSlideShow = () => {
