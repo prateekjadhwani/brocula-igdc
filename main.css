@@ -1,0 +1,70 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "BebasNeue";
+    src: url("./BebasNeue-Regular.ttf");
+}
+
+.hide {
+    display: none;
+}
+
+.brocula-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.brocula-logo-container {
+    width: 100%;
+}
+
+.brocula-logo {
+    width: 100%;
+}
+
+.brocula-hi-container {
+    margin: 0 auto;
+    text-align: center;
+    flex: 1;
+}
+
+.brocula-hi-container img {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.brocula-dev-info-container {
+    display: flex;
+    align-items: center;
+    background-color: antiquewhite;
+    padding: 50px 50px 50px 0;
+    -webkit-box-shadow: 0px -5px 7px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -5px 7px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px -5px 7px 0px rgba(0,0,0,0.75);
+}
+
+.brocula-dev-logo {
+    width: 40%;
+}
+
+.brocula-dev-info-container h1 {
+    font-size: 160px;
+    text-align: center;
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    font-family: 'BebasNeue', Arial, sans-serif;
+}
+
+.brocula-dev-info-container h3 {
+    font-size: 100px;
+    text-align: center;
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    font-family: 'BebasNeue', Arial, sans-serif;
+}
